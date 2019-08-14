@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Solwin_GoogleLangTranslator>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Solwin_GoogleLangTranslator>
+    </modules>
+</config>

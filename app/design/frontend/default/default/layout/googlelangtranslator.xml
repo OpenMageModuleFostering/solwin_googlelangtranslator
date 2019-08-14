@@ -1,0 +1,11 @@
+<?xml version="1.0"?>   
+<layout>
+    <default>
+        <reference name="store_language">
+            <action method="setTemplate">
+                <template>googlelangtranslator/index.phtml</template>
+            </action>
+        </reference>
+    </default>
+</layout>   
+	

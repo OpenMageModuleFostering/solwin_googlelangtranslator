@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Solwin_GoogleLangTranslator</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension will translate your whole website into any language you selected.</summary>
+    <description>A very useful extension to translate your website into any language.&#xD;
+ It will provide a custom language selector as well as a code snippet to insert your custom google translate code.&#xD;
+You can use it as per your conveniency.&#xD;
+This will also provide layout options for the dropdown. You can change it easily.</description>
+    <notes>Solwin custom google translate extension for translation your whole website easily.</notes>
+    <authors><author><name>Sanjay Dabhoya</name><user>solwin</user><email>stdabhoya@yahoo.com</email></author></authors>
+    <date>2015-07-28</date>
+    <time>11:59:09</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Solwin_GoogleLangTranslator.xml" hash="9054039feb3418f641e6f004657addba"/></dir></target><target name="magecommunity"><dir name="Solwin"><dir name="GoogleLangTranslator"><dir name="Block"><file name="Index.php" hash="3d05e8195ac5877ac630b1d818fd861b"/></dir><dir name="controllers"><file name="IndexController.php" hash="48fad545ae7217ef09a621f93e18f312"/></dir><dir name="etc"><file name="adminhtml.xml" hash="2a35b8c2e005073557ceeae3c904c2cd"/><file name="config.xml" hash="f5adea5abc16588add3d323287058b87"/><file name="system.xml" hash="0017cbc3003f2afe26f13040d7830a0e"/></dir><dir name="Helper"><file name="Data.php" hash="33b657b01dd9504df58540e8153e0714"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Language.php" hash="61da3764bcb6d11082d397a4ad797b97"/><file name="Layout.php" hash="2a5fb81924d847deb8e473cbcc6a008e"/></dir></dir></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="googlelangtranslator"><file name="index.phtml" hash="5747a2b79dcbcab77942e25507735fa0"/></dir></dir><dir name="layout"><file name="googlelangtranslator.xml" hash="e2391ad3cd559cae0191d188f97a3479"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
