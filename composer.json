@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Solwin_GoogleLangTranslator",
+    "name": "OpenMageModuleFostering\/Solwin_GoogleLangTranslator",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This extension will translate your whole website into any language you selected.",
     "authors": [
-    {
-        "name": "Sanjay Dabhoya",
-        "email": "stdabhoya@yahoo.com"
-    }
-],
+        {
+            "name": "Sanjay Dabhoya",
+            "email": "stdabhoya@yahoo.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
